@@ -4,8 +4,7 @@ policy: >-
   이 파일에는 공식 링크와 메타데이터만 보존한다.
 opt_in:
   required_env: JCIA_CONTENT_PERMISSION_ACK=I_HAVE_PERMISSION
-  command: scripts/fetch_restricted JP-JCIA-001
-  prerequisite: 이용허락 증빙의 내부 경로를 permission-and-fetch-receipt.json에 기록한 후에만 사용
+  prerequisite: 이용허락 증빙을 조직의 승인된 비공개 시스템에 기록한 후 별도 수집 절차로만 사용
   default_enabled: false
 sources:
   - id: JP-JCIA-001

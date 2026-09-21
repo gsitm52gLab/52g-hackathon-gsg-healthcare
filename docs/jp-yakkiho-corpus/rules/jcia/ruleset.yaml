@@ -4,8 +4,6 @@ language: ko
 authority: industry_self_regulation
 updated_at: '2026-09-21'
 rules_path: rules.jsonl
-schema_path: rules.schema.json
-finding_schema_path: finding.schema.json
 version_diff_path: version-diff.yaml
 rule_count: 35
 coverage:
@@ -14,16 +12,11 @@ coverage:
   previous_final_diff_baseline: true
 official_listing_url: https://www.jcia.org/user/business/guideline/appropriateadvertising
 source_handling: team_authored_summaries_only_no_fulltext_or_full_translation
-package_tiers:
-  core:
-    - manifest.jsonl and sources/*/aligned/segments.jsonl
-    - rules/jcia/rule-cards.ko.md and rules/jcia/rules.jsonl
-    - prompts/jp-cosmetics-ad-prescreen.md and prompts/examples
-  optional_prototype:
-    - search indexes
-    - runtime loader
-    - finding state schema
-    - automated rule validation tooling
+package_contents:
+  - manifest.jsonl and selected sources/*/aligned/segments.jsonl
+  - rules/jcia/rule-cards.ko.md and rules/jcia/rules.jsonl
+  - prompts/jp-cosmetics-ad-prescreen.md and prompts/examples
+  - tests/cases.jsonl
 source_documents:
   - source_document_id: JP-JCIA-AD-2026-ALPHA
     title_ko: 화장품 등의 적정광고 가이드라인 개정 알파판
