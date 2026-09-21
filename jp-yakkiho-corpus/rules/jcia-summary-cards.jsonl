@@ -1,0 +1,3 @@
+{"card_id":"CARD-SCOPE-001","source_locator":"JP-JCIA-001","rule_tags":["authority-boundary"],"summary_ko":"JCIA 가이드는 실무적으로 중요한 업계 자율기준이지만 법령이나 행정통지와 동일한 권위로 표시하지 않는다.","content_basis":"team-authored operational summary; no JCIA full text copied"}
+{"card_id":"CARD-SCOPE-002","source_locator":"JP-JCIA-001","rule_tags":["retrieval-policy"],"summary_ko":"JCIA 자료가 필요한 검토에서는 이용허락 여부와 버전을 먼저 확인하고, 권한이 없으면 전문 검색 대신 공식 소스 링크를 사람 검토자에게 제시한다.","content_basis":"team-authored operational summary; no JCIA full text copied"}
+{"card_id":"CARD-SCOPE-003","source_locator":"JP-JCIA-001","rule_tags":["legal-grounding"],"summary_ko":"AI의 1차 위험 표시는 e-Gov 약기법과 후생노동성 통지를 근거로 삼고, JCIA 출처는 권한 확보 후 보조 실무기준으로만 분리한다.","content_basis":"team-authored operational summary; no JCIA full text copied"}

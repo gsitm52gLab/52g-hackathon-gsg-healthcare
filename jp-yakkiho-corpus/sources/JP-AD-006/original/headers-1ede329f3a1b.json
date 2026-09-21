@@ -1,0 +1,15 @@
+{
+  "requested_url": "https://www.mhlw.go.jp/web/t_doc?dataId=00tc9762&dataType=1&pageNo=1",
+  "final_url": "https://www.mhlw.go.jp/web/t_doc?dataId=00tc9762&dataType=1&pageNo=1",
+  "retrieved_at": "2026-09-21T15:43:29+09:00",
+  "headers": {
+    "Server": "Apache-Coyote/1.1",
+    "X-Frame-options": "SAMEORIGIN",
+    "X-XSS-Protection": "0",
+    "Content-Type": "text/html;charset=UTF-8",
+    "Content-Language": "ja-JP",
+    "Content-Length": "21982",
+    "Date": "Mon, 21 Sep 2026 06:43:38 GMT",
+    "Connection": "close"
+  }
+}

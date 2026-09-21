@@ -1,0 +1,18 @@
+{
+  "review_id": "DEMO-001",
+  "product": {
+    "name": "Example Serum",
+    "japan_classification": "cosmetic",
+    "approved_claims_ja": [],
+    "approval_document_provided": false
+  },
+  "advertisement": {
+    "language": "ja",
+    "channel": "landing_page",
+    "text": "うるおい成分が角質層を超えて浸透します。",
+    "visual_description": null,
+    "linked_page_text": null
+  },
+  "evidence_provided": [],
+  "requested_output_language": "ko"
+}

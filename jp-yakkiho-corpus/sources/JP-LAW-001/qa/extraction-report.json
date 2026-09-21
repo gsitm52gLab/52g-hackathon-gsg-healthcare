@@ -1,0 +1,15 @@
+{
+  "source_id": "JP-LAW-001",
+  "version_id": "335AC0000000145_20260521_505AC0000000063",
+  "extracted_at": "2026-09-21T16:00:01+09:00",
+  "extractor": "xml.etree.ElementTree",
+  "normalization": "UTF-8, LF, Unicode NFC; no NFKC",
+  "scope": "full_xml; derived_and_translation_articles=2,59,61,66,67,68",
+  "segment_count": 6,
+  "aligned_translation_count": 6,
+  "japanese_character_count": 7825,
+  "translation_failures": [],
+  "ocr_used": false,
+  "ocr_candidates": [],
+  "recovered_from_validated_index": true
+}

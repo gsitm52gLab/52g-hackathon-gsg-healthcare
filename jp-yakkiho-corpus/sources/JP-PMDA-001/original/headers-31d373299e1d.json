@@ -1,0 +1,21 @@
+{
+  "requested_url": "https://www.pmda.go.jp/review-services/drug-reviews/about-reviews/q-drugs/0002.html",
+  "final_url": "https://www.pmda.go.jp/review-services/drug-reviews/about-reviews/q-drugs/0002.html",
+  "retrieved_at": "2026-09-21T15:54:45+09:00",
+  "headers": {
+    "Date": "Mon, 21 Sep 2026 06:54:46 GMT",
+    "Server": "Apache",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Content-Type-Options": "nosniff",
+    "Strict-Transport-Security": "max-age=2592000; includeSubdomains",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache",
+    "Last-Modified": "Thu, 27 Nov 2025 10:51:56 GMT",
+    "Accept-Ranges": "none",
+    "Content-Length": "127459",
+    "Connection": "close",
+    "Content-Type": "text/html",
+    "Set-Cookie": "cookie_G_aps=44673216.52008.0000; path=/; Httponly; Secure"
+  }
+}

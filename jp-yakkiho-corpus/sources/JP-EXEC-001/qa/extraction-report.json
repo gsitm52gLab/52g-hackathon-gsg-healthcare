@@ -1,0 +1,14 @@
+{
+  "source_id": "JP-EXEC-001",
+  "version_id": "336CO0000000011_20260501_507CO0000000362",
+  "extracted_at": "2026-09-21T16:01:57+09:00",
+  "extractor": "xml.etree.ElementTree",
+  "normalization": "UTF-8, LF, Unicode NFC; no NFKC",
+  "scope": "metadata_and_full_xml_only",
+  "segment_count": 0,
+  "aligned_translation_count": 0,
+  "japanese_character_count": 107,
+  "translation_failures": [],
+  "ocr_used": false,
+  "ocr_candidates": []
+}

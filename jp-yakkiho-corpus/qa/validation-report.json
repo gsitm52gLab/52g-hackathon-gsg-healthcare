@@ -1,0 +1,78 @@
+{
+  "validated_at": "2026-09-21T17:19:29+09:00",
+  "source_count": 10,
+  "ok": true,
+  "errors": [],
+  "sources": [
+    {
+      "source_id": "JP-LAW-001",
+      "ok": true,
+      "segment_count": 6,
+      "errors": []
+    },
+    {
+      "source_id": "JP-AD-001",
+      "ok": true,
+      "segment_count": 6,
+      "errors": []
+    },
+    {
+      "source_id": "JP-AD-002",
+      "ok": true,
+      "segment_count": 32,
+      "errors": []
+    },
+    {
+      "source_id": "JP-AD-003",
+      "ok": true,
+      "segment_count": 1,
+      "errors": []
+    },
+    {
+      "source_id": "JP-EFF-001",
+      "ok": true,
+      "segment_count": 3,
+      "errors": []
+    },
+    {
+      "source_id": "JP-EFF-002",
+      "ok": true,
+      "segment_count": 4,
+      "errors": []
+    },
+    {
+      "source_id": "JP-AD-006",
+      "ok": true,
+      "segment_count": 2,
+      "errors": []
+    },
+    {
+      "source_id": "JP-EXEC-001",
+      "ok": true,
+      "segment_count": 0,
+      "errors": []
+    },
+    {
+      "source_id": "JP-PMDA-001",
+      "ok": true,
+      "segment_count": 3,
+      "errors": []
+    },
+    {
+      "source_id": "JP-REG-001",
+      "ok": true,
+      "segment_count": 0,
+      "errors": []
+    }
+  ],
+  "jcia_rules": {
+    "ok": true,
+    "rule_count": 35,
+    "source_counts": {
+      "JP-JCIA-AD-2026-ALPHA": 31,
+      "JP-JCIA-INET-2017": 4
+    },
+    "unresolved_rule_count": 1,
+    "errors": []
+  }
+}

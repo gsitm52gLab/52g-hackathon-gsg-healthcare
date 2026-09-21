@@ -1,0 +1,14 @@
+{
+  "source_id": "JP-PMDA-001",
+  "version_id": null,
+  "extracted_at": "2026-09-21T15:54:51+09:00",
+  "extractor": "beautifulsoup4 4.15.0",
+  "normalization": "UTF-8, LF, Unicode NFC; no NFKC",
+  "scope": "full_page_reference_index",
+  "segment_count": 3,
+  "aligned_translation_count": 3,
+  "japanese_character_count": 5401,
+  "translation_failures": [],
+  "ocr_used": false,
+  "ocr_candidates": []
+}

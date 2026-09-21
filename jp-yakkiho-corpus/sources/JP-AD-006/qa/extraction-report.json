@@ -1,0 +1,14 @@
+{
+  "source_id": "JP-AD-006",
+  "version_id": "2025-03-10",
+  "extracted_at": "2026-09-21T15:52:37+09:00",
+  "extractor": "beautifulsoup4 4.15.0",
+  "normalization": "UTF-8, LF, Unicode NFC; no NFKC",
+  "scope": "full_document",
+  "segment_count": 2,
+  "aligned_translation_count": 2,
+  "japanese_character_count": 3482,
+  "translation_failures": [],
+  "ocr_used": false,
+  "ocr_candidates": []
+}

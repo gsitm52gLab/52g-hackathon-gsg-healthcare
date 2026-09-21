@@ -1,0 +1,9 @@
+{
+  "name": "jp-yakkiho-corpus",
+  "canonical_root": "/Users/jiisuniui/Documents/GS-Hackathon/jp-yakkiho-corpus",
+  "runtime_translation_allowed": false,
+  "publish_requires_translation_ready": true,
+  "active_scope": "Japan cosmetic advertising pre-check",
+  "authoritative_language": "ja",
+  "reference_translation_language": "ko"
+}

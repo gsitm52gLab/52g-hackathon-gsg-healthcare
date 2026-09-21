@@ -1,0 +1,30 @@
+version: 1
+status: draft_machine_translation_support
+terms:
+  - ja: 医薬品医療機器等法
+    ko: 의약품의료기기등법
+    preferred_short: 약기법
+  - ja: 医薬部外品
+    ko: 의약부외품
+  - ja: 化粧品
+    ko: 화장품
+  - ja: 効能効果
+    ko: 효능·효과
+  - ja: 標榜
+    ko: 표방
+  - ja: 承認
+    ko: 승인
+  - ja: 届出
+    ko: 신고
+  - ja: 特記表示
+    ko: 특기 표시
+  - ja: 配合目的
+    ko: 배합 목적
+  - ja: 虚偽又は誇大な記事
+    ko: 허위 또는 과대한 기사·표현
+  - ja: 一般化粧品
+    ko: 일반 화장품
+notes:
+  - 한국어 번역은 비공식 참고용이며 일본어 공식 원문이 우선한다.
+  - 제품 분류가 의약부외품이면 승인된 효능·효과 문구를 별도 확인한다.
+

@@ -1,0 +1,23 @@
+{
+  "source_id": "JP-EFF-002",
+  "version_id": "2011-07-21",
+  "extracted_at": "2026-09-21T15:52:33+09:00",
+  "extractor": "pypdf 6.19.0",
+  "normalization": "UTF-8, LF, Unicode NFC; no NFKC",
+  "scope": "full_document",
+  "segment_count": 4,
+  "aligned_translation_count": 4,
+  "japanese_character_count": 3374,
+  "translation_failures": [],
+  "page_count": 4,
+  "page_nonspace_character_counts": [
+    630,
+    613,
+    882,
+    777
+  ],
+  "empty_pages": [],
+  "low_text_pages": [],
+  "ocr_used": false,
+  "ocr_candidates": []
+}

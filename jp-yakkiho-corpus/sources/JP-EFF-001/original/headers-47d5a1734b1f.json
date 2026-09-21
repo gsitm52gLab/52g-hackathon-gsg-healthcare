@@ -1,0 +1,16 @@
+{
+  "requested_url": "https://www.mhlw.go.jp/file/06-Seisakujouhou-11120000-Iyakushokuhinkyoku/kesyouhin_hanni_20111.pdf",
+  "final_url": "https://www.mhlw.go.jp/file/06-Seisakujouhou-11120000-Iyakushokuhinkyoku/kesyouhin_hanni_20111.pdf",
+  "retrieved_at": "2026-09-21T15:43:29+09:00",
+  "headers": {
+    "Server": "Apache",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Last-Modified": "Mon, 18 Jun 2018 02:59:52 GMT",
+    "ETag": "\"1b4f9-56ee1c26a5a00\"",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "111865",
+    "Content-Type": "application/pdf",
+    "Date": "Mon, 21 Sep 2026 06:43:36 GMT",
+    "Connection": "close"
+  }
+}

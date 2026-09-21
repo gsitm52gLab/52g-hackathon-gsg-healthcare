@@ -1,0 +1,33 @@
+version: 1
+policy: >-
+  JCIA 자료는 사이트 정책상 사전 연락 없이 전문을 복제·가공하지 않는다.
+  이 파일에는 공식 링크와 메타데이터만 보존한다.
+opt_in:
+  required_env: JCIA_CONTENT_PERMISSION_ACK=I_HAVE_PERMISSION
+  command: scripts/fetch_restricted JP-JCIA-001
+  prerequisite: 이용허락 증빙의 내부 경로를 permission-and-fetch-receipt.json에 기록한 후에만 사용
+  default_enabled: false
+sources:
+  - id: JP-JCIA-001
+    issuer: 日本化粧品工業会
+    title_ja: 化粧品等の適正広告ガイドライン2020年版（第2刷）
+    published_at: 2020-06-15
+    landing_url: https://www.jcia.org/user/business/advertising/
+    official_url: https://www.jcia.org/user/common/download/business/advertising/JCIA20200615_ADguide.pdf
+    handling: metadata_and_link_only_until_permission
+    reason: JCIA 사이트 정책이 PDF·텍스트의 무단 복제·가공을 제한하고 사전 연락을 요구함
+    terms_url: https://www.jcia.org/user/jcia/sitepolicy
+  - id: JP-JCIA-002
+    issuer: 日本化粧品工業会
+    title_ja: 化粧品等の適正広告ガイドライン2020年版・改正新旧対照表
+    published_at: 2020-06-15
+    official_url: https://www.jcia.org/user/common/download/business/advertising/JCIA20200615_ADguide_comparison_table.pdf
+    handling: metadata_and_link_only_until_permission
+    terms_url: https://www.jcia.org/user/jcia/sitepolicy
+  - id: JP-JCIA-003
+    issuer: 日本化粧品工業会
+    title_ja: 化粧品等の適正広告ガイドライン2020年版（正誤表）
+    published_at: 2020-06-22
+    official_url: https://www.jcia.org/user/common/download/business/advertising/JCIA20200622_ADguide_correctness_table.pdf
+    handling: metadata_and_link_only_until_permission
+    terms_url: https://www.jcia.org/user/jcia/sitepolicy

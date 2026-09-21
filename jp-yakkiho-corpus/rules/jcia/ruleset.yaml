@@ -1,0 +1,77 @@
+ruleset_id: JP-JCIA-AD-REVIEW
+title_ko: 일본 화장품 광고 JCIA 실무 사전검토 규칙
+language: ko
+authority: industry_self_regulation
+updated_at: '2026-09-21'
+rules_path: rules.jsonl
+schema_path: rules.schema.json
+finding_schema_path: finding.schema.json
+version_diff_path: version-diff.yaml
+rule_count: 35
+coverage:
+  alpha_rules: 31
+  internet_rules: 4
+  previous_final_diff_baseline: true
+official_listing_url: https://www.jcia.org/user/business/guideline/appropriateadvertising
+source_handling: team_authored_summaries_only_no_fulltext_or_full_translation
+package_tiers:
+  core:
+    - manifest.jsonl and sources/*/aligned/segments.jsonl
+    - rules/jcia/rule-cards.ko.md and rules/jcia/rules.jsonl
+    - prompts/jp-cosmetics-ad-prescreen.md and prompts/examples
+  optional_prototype:
+    - search indexes
+    - runtime loader
+    - finding state schema
+    - automated rule validation tooling
+source_documents:
+  - source_document_id: JP-JCIA-AD-2026-ALPHA
+    title_ko: 화장품 등의 적정광고 가이드라인 개정 알파판
+    published_at: '2026-07-24'
+    version_status: alpha
+    official_url: https://www.jcia.org/user/common/download/business/guideline/appropriateadvertising/20260724_AppropriateAdvertising_Guideline-2.pdf
+    usage: current_review_reference_pending_final
+  - source_document_id: JP-JCIA-AD-2020-2ND
+    title_ko: 화장품 등의 적정광고 가이드라인 2020년판 제2쇄
+    published_at: '2020-06-15'
+    version_status: previous_final
+    official_url: https://www.jcia.org/user/common/download/business/advertising/JCIA20200615_ADguide.pdf
+    usage: previous_final_and_diff_baseline
+  - source_document_id: JP-JCIA-INET-2017
+    title_ko: 화장품 등의 인터넷상 광고 기준
+    published_at: '2017-07-13'
+    version_status: current
+    official_url: https://www.jcia.org/user/common/download/business/guideline/appropriateadvertising/20170713_AppropriateAdvertising_Standard-4.pdf
+    usage: additional_rules_for_internet_channels
+  - source_document_id: JP-JCIA-INET-FAQ-2017
+    title_ko: 화장품 등의 인터넷상 광고 기준 Q&A집
+    published_at: '2017-07-13'
+    version_status: current
+    official_url: https://www.jcia.org/user/common/download/business/guideline/appropriateadvertising/20170713_AppropriateAdvertising_FAQ-1.pdf
+    usage: supplemental_interpretation_inventory_not_yet_carded
+final_release_watch:
+  status: waiting
+  action: check_official_listing_before_each_ruleset_release
+  note: 2026 알파판을 정식판으로 간주하거나 자동 승격하지 않는다.
+statutory_scope_notes:
+  article_67: 특정 질병용 의약품·재생의료제품 광고 제한 조항으로, 현재 일반화장품·의약부외품 문안 카드의 직접 근거에 포함하지 않는다.
+  article_68: 화장품 문안이 미승인 의약품·의료기기·재생의료제품 영역으로 넘어가는 경계를 검출하기 위해 JCIA-R-035에 연결한다.
+  rule: 제품이 의약품·의료기기·재생의료제품으로 재분류될 가능성이 있으면 현재 ruleset의 자동 검토를 중단하고 전문가에게 상향한다.
+output_policy:
+  mode: pre_screening_only
+  fixed_finding_conclusion: 관련 조항과 충돌 가능성이 있는 문제 후보
+  allowed_labels:
+    - 검토 후보
+    - 근거 확인 필요
+    - 담당자 검토 완료
+  forbidden_conclusions:
+    - 위법 확정
+    - 적법 확정
+    - 승인
+    - 반려
+  mandatory_disclaimer: AI 결과는 JCIA 업계 자율기준에 따른 사전검토 보조이며 법률판단이나 최종 승인 결과가 아닙니다.
+  mandatory_escalation_when:
+    - 제품이 일반화장품인지 의약부외품인지 불명확함
+    - 의약부외품의 승인 효능·효과 또는 성분 지위가 제공되지 않음
+    - 객관적 근거 자료가 없거나 광고 전체 맥락을 확인할 수 없음
+    - 알파판과 이전 확정판의 취급 차이가 결과에 영향을 줌

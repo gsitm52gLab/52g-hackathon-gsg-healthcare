@@ -1,0 +1,47 @@
+comparison:
+  from: JP-JCIA-AD-2020-2ND
+  to: JP-JCIA-AD-2026-ALPHA
+  reviewed_at: '2026-09-21'
+  status: alpha_not_final
+  method: section-level AI-assisted comparison of official PDFs; human review pending; typography-only differences omitted
+  review_status: ai_assisted_human_review_pending
+changes:
+  - change_id: DIFF-2026-001
+    sections: [F5.5, E24]
+    printed_pages: ['22', '42-43']
+    summary_ko: 특정 성분의 특기 표시에서 배합 목적을 반드시 명확히 하고, 화장품 효능 범위 또는 제제기술에 맞으며 객관적으로 입증된 내용이어야 한다는 조건이 강화됐다.
+    operational_impact: 성분을 강조하면 배합 목적 문구, 성분명, 객관적 근거를 함께 수집한다.
+    legal_basis: [JP-AD-006]
+  - change_id: DIFF-2026-002
+    sections: [E24]
+    printed_pages: ['42-43']
+    summary_ko: 미용·미肌·항산화·에이징케어처럼 효능이 불명확하거나 유효성분 인상을 주는 배합 목적에 대한 주의가 구체화됐다.
+    operational_impact: 배합 목적 자체가 허용 효능인지 별도로 검토하고 모호한 미용 효능 표현을 자동 통과시키지 않는다.
+    legal_basis: [JP-AD-006, JP-EFF-001]
+  - change_id: DIFF-2026-003
+    sections: [E24]
+    printed_pages: ['42-43']
+    summary_ko: 제품에 실제 배합된 성분과 그 성분에 따라 들어온 부수 물질을 구분하고, 부수 물질을 제품 배합성분처럼 강조하지 않도록 취급이 명확해졌다.
+    operational_impact: 원료 조성서와 완제품 전성분 자료로 강조 대상이 직접 배합성분인지 확인한다.
+    legal_basis: [JP-AD-006]
+  - change_id: DIFF-2026-004
+    sections: [E24]
+    printed_pages: ['42-43']
+    summary_ko: 배합 목적을 주석으로 분리할 때도 위치·크기·대비·색·영상 노출시간 또는 내레이션 등 실제 인지 가능성을 검토하도록 상세화됐다.
+    operational_impact: 텍스트만이 아니라 최종 레이아웃과 영상 타임라인을 증거로 요구한다.
+    legal_basis: [JP-AD-006]
+  - change_id: DIFF-2026-005
+    sections: [E24]
+    printed_pages: ['43']
+    summary_ko: 의약부외품의 유효성분으로도 쓰일 수 있는 성분을 일반화장품에서 강조할 때 유효성분·약리작용 오인 방지, 화장품 효능 범위, 객관적 입증을 모두 확인하도록 조건이 추가됐다.
+    operational_impact: 성분 지위가 불명확하면 담당자 검토로 상향하고 AI가 자동 적합 판정을 내리지 않는다.
+    legal_basis: [JP-AD-006, JP-EFF-001]
+unchanged_material_areas:
+  - 광고 해당성 및 전체 인상 평가
+  - 일반화장품·의약부외품 효능 범위
+  - 효능·안전성 보증과 체험담
+  - 침투·세포·치료·미백·에이징케어 표현
+  - 설명문 가독성과 조사 수치
+notes:
+  - 2026 문서에는 변경 표지가 있으나 이 파일은 조판 차이와 자료편 갱신을 규칙 변경으로 세지 않는다.
+  - 정식 개정판 공개 시 전체 섹션을 다시 비교해야 한다.

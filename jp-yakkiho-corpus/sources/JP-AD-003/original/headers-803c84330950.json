@@ -1,0 +1,16 @@
+{
+  "requested_url": "https://www.mhlw.go.jp/bunya/iyakuhin/koukokukisei/dl/index_d.pdf",
+  "final_url": "https://www.mhlw.go.jp/bunya/iyakuhin/koukokukisei/dl/index_d.pdf",
+  "retrieved_at": "2026-09-21T15:43:29+09:00",
+  "headers": {
+    "Server": "Apache",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Last-Modified": "Fri, 01 Jun 2018 23:25:15 GMT",
+    "ETag": "\"17b87-56d9ce56cecc0\"",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "97159",
+    "Content-Type": "application/pdf",
+    "Date": "Mon, 21 Sep 2026 06:43:36 GMT",
+    "Connection": "close"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "requested_url": "https://www.mhlw.go.jp/file/06-Seisakujouhou-11120000-Iyakushokuhinkyoku/0000179263.pdf",
+  "final_url": "https://www.mhlw.go.jp/file/06-Seisakujouhou-11120000-Iyakushokuhinkyoku/0000179263.pdf",
+  "retrieved_at": "2026-09-21T15:43:29+09:00",
+  "headers": {
+    "Server": "Apache",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Last-Modified": "Thu, 21 Jun 2018 09:00:30 GMT",
+    "ETag": "\"606f5-56f2325aa2780\"",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "394997",
+    "Content-Type": "application/pdf",
+    "Date": "Mon, 21 Sep 2026 06:43:34 GMT",
+    "Connection": "close"
+  }
+}
