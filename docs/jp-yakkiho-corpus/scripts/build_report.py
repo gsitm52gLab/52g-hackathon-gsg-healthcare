@@ -72,7 +72,7 @@ def main() -> int:
             "## Rebuild",
             "",
             "```bash",
-            "cd /Users/jiisuniui/Documents/GS-Hackathon/jp-yakkiho-corpus",
+            "cd /Users/jiisuniui/Documents/GS-Hackathon/docs/jp-yakkiho-corpus",
             "scripts/fetch_sources",
             "scripts/extract",
             "scripts/validate",
@@ -90,4 +90,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

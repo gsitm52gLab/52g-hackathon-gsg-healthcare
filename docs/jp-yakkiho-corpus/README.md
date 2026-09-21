@@ -1,8 +1,18 @@
-# 일본 약기법 광고 검수 기반자료·프롬프트 패키지
+# 일본 약기법 광고 사전검토 기능 문서
 
-> 이 저장소는 서비스나 완성된 검수 애플리케이션이 아니다. 일본 화장품 광고를 검토할 때 사용할 공식 기반자료, 사전 생성 한국어 번역, 사람이 읽는 규칙 카드, 단일 AI 프롬프트를 전달하는 패키지다.
+> GS HALE 서비스의 일본 화장품 광고 사전검토 기능에 사용하는 공식 기반자료, 사전 생성 한국어 번역, 사람이 읽는 규칙 카드, 단일 AI 프롬프트를 모은 문서 영역이다.
 
 AI 결과는 위반 판정이나 승인 결과가 아니라 담당자가 먼저 볼 문제 후보, 이유, 공식 근거와 수정 초안을 제시하는 참고자료다.
+
+## 읽는 순서
+
+1. [`01_sources/`](01_sources/) — 공식 원문, JA-KO 정렬문, manifest
+2. [`02_rule_cards/`](02_rule_cards/) — 사람이 읽는 35개 규칙 카드
+3. [`03_prompt/`](03_prompt/) — 단일 프롬프트, 입출력 예시, 테스트
+4. [`04_test_cases/`](04_test_cases/) — 실제 업무자료 감사와 향후 익명화 테스트 케이스
+5. [`99_optional_prototype/`](99_optional_prototype/) — 검색·런타임 등 선택적 구현 참고물
+
+빠른 기능 확인은 `04_test_cases`의 감사 결과를 읽은 뒤 `03_prompt`의 프롬프트와 예시를 사용한다. 번호 폴더는 파일을 복제하지 않는 탐색용 인덱스다.
 
 ## 핵심 전달물
 
@@ -57,7 +67,7 @@ sources/<SOURCE-ID>/
 macOS 기준이며 시스템 전역 패키지를 설치하지 않는다.
 
 ```bash
-cd /Users/jiisuniui/Documents/GS-Hackathon/jp-yakkiho-corpus
+cd /Users/jiisuniui/Documents/GS-Hackathon/docs/jp-yakkiho-corpus
 python3 -m venv .venv
 .venv/bin/pip install -r scripts/requirements.txt
 chmod +x scripts/fetch_sources scripts/extract scripts/validate

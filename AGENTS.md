@@ -8,7 +8,7 @@ Before designing or implementing product UI, read in order:
 2. `docs/brand-system.md`
 3. `docs/design-system.md`
 
-For Japanese regulatory pre-screening work, also read `jp-yakkiho-corpus/README.md` and the relevant prompt/contracts before changing code or copy.
+For Japanese regulatory pre-screening work, also read `docs/jp-yakkiho-corpus/README.md` and the relevant prompt/contracts before changing code or copy.
 
 ## Decision order
 
@@ -30,5 +30,6 @@ Do not infer legal approval, task completion, deadlines, reviewers, or evidence.
 - Never style AI pre-screening as human approval or legal clearance.
 - Preserve Japanese source text, unofficial translation labels, exact versions, and locator gaps.
 - Status must use text plus a non-color cue.
-- If a new global component or token is truly required, update the design-system document in the same change.
-
+- Do not introduce a new UI pattern only inside a feature or screen. If a new global component, pattern, or token is truly required, add its contract to `docs/design-system.md` before implementation or in the same change.
+- A new pattern contract must define its problem, selection criteria, anatomy, variants, states, responsive behavior, accessibility behavior, content rules, and at least one valid and invalid example.
+- If the pattern is only a one-off composition of existing components, keep it local and do not promote it to the design system.

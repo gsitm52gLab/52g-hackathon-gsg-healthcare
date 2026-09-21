@@ -1,7 +1,7 @@
 # Corpus build report
 
 - Generated: 2026-09-21T16:02:12+09:00
-- Canonical root: `/Users/jiisuniui/Documents/GS-Hackathon/jp-yakkiho-corpus`
+- Canonical root: `/Users/jiisuniui/Documents/GS-Hackathon/docs/jp-yakkiho-corpus`
 - Included official sources: 10
 - Inventoried files excluding `.venv` and report self-files: 88
 - Validation: `qa/validation-report.json` reports `ok: true`
@@ -37,7 +37,7 @@
 ## Rebuild
 
 ```bash
-cd /Users/jiisuniui/Documents/GS-Hackathon/jp-yakkiho-corpus
+cd /Users/jiisuniui/Documents/GS-Hackathon/docs/jp-yakkiho-corpus
 scripts/fetch_sources
 scripts/extract
 scripts/validate
